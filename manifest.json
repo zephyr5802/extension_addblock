@@ -1,0 +1,22 @@
+{
+    "name":"adblocker",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "icons":
+    {
+        "128":"ad-blocker.png"
+    },
+    "permissions":[
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request":
+    {
+        "rule_resources":[
+            {
+                "id":"ruleset_1",
+                "enabled":true,
+                "path":"rules.json"
+            }
+        ]
+    }
+}
